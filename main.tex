@@ -247,14 +247,14 @@
 
   \pause
   \begin{columns}
-    \begin{column}{0.8\textwidth}
+    \begin{column}{0.9\textwidth}
       \begin{block}{抽選}
         参加者が抽選の運営に対してお金を支払うと、\textbf{確率}で景品を入手できる構造
       \end{block}
     \end{column}
-    \begin{column}{0.2\textwidth}
+    \begin{column}{0.1\textwidth}
       \begin{center}
-        \includegraphics[width=0.6\textwidth]{img/gachagacha.png}
+        \includegraphics[width=0.8\textwidth]{img/gachagacha.png}
       \end{center}
     \end{column}
   \end{columns}
@@ -600,7 +600,7 @@
     \begin{column}{0.5\textwidth}
       \begin{figure}[h]
         \footnotesize
-        \begin{blochsphere}[radius=0.25\textwidth, tilt=15,rotation=-20,opacity=0]
+        \begin{blochsphere}[radius=0.15\textwidth, tilt=15,rotation=-20,opacity=0]
           \drawBallGrid[style={opacity=0.2}]{40}{40}
        
           \drawAxis[style={cyan}]{0}{0};
@@ -620,22 +620,27 @@
   \end{columns}
 
   \begin{columns}
-    \begin{column}{0.15\textwidth}
+    \begin{column}{0.1\textwidth}
       \uncover<4->{
-        \includegraphics[width=0.9\textwidth]{img/cat_russian_blue.png}
+        \includegraphics[width=\textwidth]{img/cat_russian_blue.png}
       }
     \end{column}
-    \begin{column}{0.85\textwidth}
+    \begin{column}{0.9\textwidth}
       \begin{itemize}
         \item<+-> 図のように$a$が同じ（= 色が同じ）なら直交する
        
         \item<+-> たとえば量子ビット$\地獄$の測定を考える
         \begin{description}
-          \item[$\{\天国, \地獄\}$で測定した場合]\mbox{}\\
-          常に$\地獄$が出力
-          
-          \item[$\{\生, \死\}$で測定した場合]\mbox{}\\
-          $\生, \死$のいずれかが確率で出力
+          \begin{columns}
+            \begin{column}{0.4\textwidth}            
+              \item[$\{\天国, \地獄\}$で測定した場合]\mbox{}\\
+              常に$\地獄$が出力
+            \end{column}
+            \begin{column}{0.45\textwidth}           
+               \item[$\{\生, \死\}$で測定した場合]\mbox{}\\
+               $\生, \死$のいずれかが確率で出力
+            \end{column}
+          \end{columns}
         \end{description}
       \end{itemize}
     \end{column}
@@ -649,7 +654,7 @@
     \begin{column}{0.2\textwidth}
       \begin{figure}[h]
         \footnotesize
-        \begin{blochsphere}[radius=0.60\textwidth, tilt=15,rotation=-20,opacity=0]
+        \begin{blochsphere}[radius=0.50\textwidth, tilt=15,rotation=-20,opacity=0]
           \drawBallGrid[style={opacity=0.2}]{40}{40}
        
           \drawAxis[style={cyan}]{0}{0};
